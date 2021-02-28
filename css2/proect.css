@@ -1,0 +1,76 @@
+body{
+    background: url(https://us.123rf.com/450wm/yamonstro/yamonstro1508/yamonstro150800009/43701584-technology-vector-geometric-perforated-material-seamless-dark-grey-background-for-applications-app-w.jpg?ver=6);
+    -moz-background-size: 20%;
+    -webkit-background-size: 20%;
+    background-size: 20%;
+    style = "background-attachment: fixed;" topmargin="0"
+    background: ;  
+    color: white;no-repeat
+    margin:0;
+    font-family:tahoma;
+
+}
+form{
+    margin:0 auto;
+    height: 500px;
+    padding: 20px;
+    
+}
+.group{
+    margin: 10px;
+    padding: 5px;
+}
+label{
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+input{
+    margin-top: 10px;
+    height: 15px;
+    width: 100px;
+    
+}
+.registration{
+    width: 100px;
+}
+
+nav{
+    width: 960px;
+    margin: 0 auto;
+}
+
+nav::before{
+    content: "";
+    display:block;
+    height: 40px;
+    width: 100%;
+    background: #000;
+    position: absolute;
+    left:0;
+    z-index:-1;
+}
+
+ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+    height:40px;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    color: #fff;
+    display:block;
+    height:40px;
+    padding:0 30px;
+    text-transform:uppercase;
+    text-decoration:none;
+    line-height:50px;
+}
+
+ul li a:hover{
+    background:#d34d43;
+}
